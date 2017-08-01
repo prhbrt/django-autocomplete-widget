@@ -11,6 +11,11 @@ This avoids ajax.
 
     pip install autocomplete_widget
 
+Include these static files in your `<head>`
+
+    <link rel="stylesheet" href="{% static 'django-autocomplete-widget.css' %}"/>
+    <script src="{% static 'django-autocomplete-widget.js' %}"></script>
+
 Django 'INSTALLED_APPS'
 
     INSTALLED_APPS = (
