@@ -9,6 +9,8 @@ This avoids ajax.
 
 ## Setup
 
+    pip install autocomplete_widget
+
 Django 'INSTALLED_APPS'
 
     INSTALLED_APPS = (
