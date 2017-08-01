@@ -30,11 +30,3 @@ A form:
 ![Example widget][example]
 
 [example]: example.png "Example widget"
-
-
-
-git init
-git add *
-git commit -m "first commit"
-git remote add origin git@github.com:prinsherbert/django-autocomplete-widget.git
-git push -u origin master
