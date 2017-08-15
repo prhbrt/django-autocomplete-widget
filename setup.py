@@ -2,14 +2,14 @@ from setuptools import setup
 
 
 setup(
-    name='autocomplete_widget',
-    version=__import__('autocomplete_widget').__version__,
+    name='django_widgets',
+    version=__import__('django_widgets').__version__,
     url='https://www.rug.nl/rus/cit/',
     author='Research and Innovation Support',
     author_email='H.T.Kruitbosch@rug.nl',
     description=('A widget that autocompletes (without ajax)'),
     packages=[
-        'autocomplete_widget'
+        'django_widgets'
     ],
     include_package_data=True,
     install_requires=['django'],

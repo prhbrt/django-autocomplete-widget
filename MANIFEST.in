@@ -1,3 +1,4 @@
-include autocomplete_widget/static/django-autocomplete-widget.css
-include autocomplete_widget/static/django-autocomplete-widget.js
-include autocomplete_widget/templates/autocomplete_widget/widget.html
+include django_widgets/static/django-widgets.css
+include django_widgets/static/django-widgets.js
+include django_widgets/templates/djangowidgets/autocompleteselect.html
+include django_widgets/templates/djangowidgets/buttonselect.html
